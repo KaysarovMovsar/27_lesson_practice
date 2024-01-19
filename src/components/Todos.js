@@ -17,7 +17,11 @@ export const Todos = () => {
     return (
         <ul className="list">
             {
-                todos.map(todo=>{
+
+
+
+
+                   todos.map(todo=>{
                      return <Todo key={todo.id} todo={todo}/>
                 })
             }
