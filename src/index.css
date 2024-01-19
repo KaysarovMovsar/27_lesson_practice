@@ -30,3 +30,34 @@ code {
 .user_item a.active {
   background-color: aqua;
 }
+
+.button_container {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.small {
+  background-color: aqua;
+  text-align: center;
+  width: 100px;
+  border-radius: 10px;
+  border: coral 2px solid;
+}
+
+.medium {
+  background-color: aqua;
+  text-align: center;
+  width: 200px;
+  border-radius: 10px;
+  border: coral 2px solid;
+}
+
+.large {
+  background-color: aqua;
+  text-align: center;
+  width: 300px;
+  border-radius: 10px;
+  border: coral 2px solid;
+}
